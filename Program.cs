@@ -19,6 +19,9 @@ double result = 0;
 
 switch (operation)
 {
+    case '^':
+        result = Math.Pow(num1,num2);
+        break;
     case '+':
         result = num1 + num2;
         break;
